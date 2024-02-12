@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fun with HTML5 Canvas</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="img-wrapper">
+            <canvas id="draw" width="800" height="800"></canvas>
+        </div>
+
+
+        <div class="panel-wrapper">
+            <div class="colors">
+                <ul class="palette">
+                    <li class="color"></li>
+                    <li class="color"></li>
+                    <li class="color"></li>
+                    <li class="color"></li>
+                    <li class="color"></li>
+                    <li class="color"></li>
+                    <li class="color"></li>
+                    <li class="color"></li>
+                    <li class="color"></li>
+                    <li class="color"></li>
+                </ul>
+            </div>
+
+            <div class="btn-wrapper">
+                <ul class="btns">
+                    <li data-number="1" class="img-btn img-btn--active">Image1</li>
+                    <li data-number="2" class="img-btn">Image2</li>
+                    <li data-number="3" class="img-btn">Image3</li>
+                    <li data-number="4" class="img-btn">Image4</li>
+                    <li data-number="5" class="img-btn">Image5</li>
+                </ul>
+            </div>
+            <div>
+                <input class="yourColor" id="yourColor" type="color" name="YourColor" value="#f6b73c" />
+                <label for="yourColor">pick your own color</label>
+            </div>
+            <div class="resetDrawing">Reset drawing</div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
